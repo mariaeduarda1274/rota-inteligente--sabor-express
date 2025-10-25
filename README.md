@@ -33,7 +33,23 @@ Testes feitos com dados inexistentes(exemplo):
 - Rota sequencial exemplo: ~ 100.000 unidades de distância.
 - K Means formou 3 agrupamentos, facilitando a divisão por entregador
 
-## 6. 
+## 6. Eficiência da solução 
+- **A\*** costuma ser um pouco mais complexo visualmente, mas na prática é muito mais rápido
+- **K-Means** depende do número de entregas para estipular seu custo
+- Para um pequeno negócio( mapa pequeno e poucas entregas) o tempo de execução é baixo
+
+## 7. Limitações 
+- Dados usados foram sintéticos
+- Não foram consideradas janelas de horário, capacidade dos entregadores ou ruas com sentido único.
+- Visualização estática, e um pouco com o web
+
+## 8. Sugestões de melhoria 
+- Integrar dados reais e tráfego em tempo real
+- Implementar interface de web mais detalhada
+- Teqstar em dados reais da Sabor Express e ajustar parâmetros segundo números de entregadores.
+
+## 9. Conclusão: 
+A solução mostrou que, mesmo com técnicas clássicas, é possivel automatizar e melhorar rotas de entrega, reduzindo deslocamento e organizando melhor as tarefas dos entregadores. Com dados reais e melhorias listadas, a ferramenta pode se tornar prática para uso diário, e com isso tendo muitas melhorias, economizando combustível, otimizando tempo.. 
 
 
 
