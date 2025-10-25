@@ -18,11 +18,14 @@
 
 ## 4. Diagrama do grafo/ modelo 
 
-### Mapa de Entregas
+# Rota Inteligente: Otimização de Entregas (Sabor Express)
 
-Clique na imagem abaixo para ver a versão interativa do mapa:
+**[Clique aqui para ver o Mapa de Entregas Interativo (Abre em nova aba)](https://mariaeduarda1274.github.io/rota-inteligente-sabor-express/)**
 
-[![Preview do Mapa de Entregas](preview-mapa.png)](https://mariaeduarda1274.github.io/rota-inteligente-sabor-express/mapa_entregas.html)
+---
+
+1. Descrição do problema e objetivos
+...
 
 
 
