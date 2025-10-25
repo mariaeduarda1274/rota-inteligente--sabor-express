@@ -1,1 +1,22 @@
+## Parte dos pontos ## 
 
+import pandas as pd
+df = pd.read_csv("pontos.csv")
+print(df)
+
+   id       lat        lon     name
+0   0 -23.55052 -46.633308     Base
+1   1 -23.54800 -46.635000  Ponto A
+2   2 -23.55200 -46.640000  Ponto B
+
+
+## Parte de deliveries ## 
+
+import pandas as pd
+df = pd.read_csv("deliveries.csv")
+print(df)
+
+   id     lat     lon address
+0   0 -23.549 -46.634   Rua X
+1   1 -23.551 -46.637   Rua Y
+2   2 -23.553 -46.639   Rua Z
