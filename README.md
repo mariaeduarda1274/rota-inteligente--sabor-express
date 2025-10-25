@@ -24,7 +24,7 @@ Ela mostra:
 - linhas cinza= arestas(ruas); 
 - pontos vermelhos = entregas;
 - linhas em destaque = rota calculada(A*)
-# link que caso não queira ja a imagem tem o link. 
+Link que caso não queira a imagem, até para mexer com mouse para apliar o mapa.
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
 
