@@ -18,7 +18,8 @@
 
 ## 4. Diagrama do grafo/ modelo 
 
-[[Mapa de Entregas](https://raw.githubusercontent.com/mariaeduarda1274/rota-inteligente--sabor-express/d8d7fa5412db67f7f6a9ba3de3eeececd7bc47ff/mapa_entregas.png)]
+https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
+(https://raw.githubusercontent.com/mariaeduarda1274/rota-inteligente--sabor-express/d8d7fa5412db67f7f6a9ba3de3eeececd7bc47ff/mapa_entregas.png)]
 
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
