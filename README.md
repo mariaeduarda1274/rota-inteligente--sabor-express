@@ -27,11 +27,6 @@
 
 
 
-## Mapa de Entregas
-
-Abaixo está o mapa das rotas de entrega. Clique na imagem para abrir o mapa interativo:
-
-[![Mapa de Entregas](https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/)](https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/)
 
 
 
