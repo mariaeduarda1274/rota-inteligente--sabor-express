@@ -20,6 +20,9 @@
 
 [![Mapa de Entregas](https://raw.githubusercontent.com/.../mapa_entregas.png)](https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/)
 
+<img width="1363" height="614" alt="image" src="https://github.com/user-attachments/assets/28806afa-2a8a-465b-ac65-d83c57d0d978" />
+"https://github.com/user-attachments/assets/400ea6e2-f49b-44b3-b42f-735cee8facd1" />
+
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
 
