@@ -28,7 +28,13 @@ Link que caso não queira a imagem, até para mexer com mouse para apliar o mapa
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
 ## 5. Análise dos resultados
-Testes feitos com dados s
+Testes feitos com dados inexistentes(exemplo):
+- Nós: 3 | Entregas: 3
+- Rota sequencial exemplo: ~ 100.000 unidades de distância.
+- K Means formou 3 agrupamentos, facilitando a divisão por entregador
+
+## 6. 
+
 
 
 
