@@ -27,6 +27,10 @@ Ela mostra:
 Link que caso não queira a imagem, até para mexer com mouse para apliar o mapa.
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
+## 5. Análise dos resultados
+Testes feitos com dados s
+
+
 
 
 
