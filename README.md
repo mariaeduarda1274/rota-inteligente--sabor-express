@@ -17,15 +17,13 @@
  - ** K- Means** - agrupa entregas próximas para formar zonas eficientes, isso faz até com que economize combustível ja que vai ser mais em grupos de zonas.
 
 ## 4. Diagrama do grafo/ modelo 
+## Mapa de Entregas
 
-# Rota Inteligente: Otimização de Entregas (Sabor Express)
+Abaixo está o mapa das rotas de entrega. Clique na imagem para abrir o mapa interativo:
 
-**[Clique aqui para ver o Mapa de Entregas Interativo (Abre em nova aba)](https://mariaeduarda1274.github.io/rota-inteligente-sabor-express/)**
+[![Mapa de Entregas](https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/)](https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/)
 
----
 
-1. Descrição do problema e objetivos
-...
 
 
 
