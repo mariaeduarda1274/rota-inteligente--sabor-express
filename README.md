@@ -18,7 +18,11 @@
 
 ## 4. Diagrama do grafo/ modelo 
 
+### Mapa de Entregas
 
+Clique na imagem abaixo para ver a versão interativa do mapa:
+
+[![Preview do Mapa de Entregas](preview-mapa.png)](https://mariaeduarda1274.github.io/rota-inteligente-sabor-express/mapa_entregas.html)
 
 
 
