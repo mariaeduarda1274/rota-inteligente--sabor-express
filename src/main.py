@@ -1,6 +1,5 @@
 # main.py ( feito no Google Colab) - código principal da Rota Inteligente 
 print("Sistema de rotas inteligentes funcionando!")
-
 !pip install folium branca
 !pip install selenium webdriver-manager
 import pandas as pd
