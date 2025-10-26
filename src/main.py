@@ -40,8 +40,8 @@ def load_csv_points(path, lat_col='lat', lon_col='lon'):
             })
     return pts
 
-locais = load_csv_points('pontos.csv', lat_col='lat', lon_col='lon')
-entregas = load_csv_points('deliveries.csv', lat_col='lat', lon_col='lon')
+locais = load_csv_points('data/pontos.csv', lat_col='lat', lon_col='lon')
+entregas = load_csv_points('data/deliveries.csv', lat_col='lat', lon_col='lon')
 
 # --- centro do mapa ---
 all_lats = [p['lat'] for p in locais + entregas]
