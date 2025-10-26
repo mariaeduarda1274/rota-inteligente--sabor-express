@@ -1,3 +1,5 @@
+# main.py - código principal da Rota Inteligente 
+print("Sistema de rotas inteligentes funcionando!")
 # gera_mapa_entregas.py
 import folium
 import csv
