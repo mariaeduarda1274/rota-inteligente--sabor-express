@@ -11,12 +11,12 @@ Você pode abrir e executar este projeto diretamente no Google Colab:
 from google.colab import files
 uploaded = files.upload()
 import pandas as pd
-df = pd.read_csv("pontos.csv")
+df = pd.read_csv("data/pontos.csv")
 print(df)
 from google.colab import files
 uploaded = files.upload()
 import pandas as pd
-df = pd.read_csv("deliveries.csv")
+df = pd.read_csv("data/deliveries.csv")
 print(df)
 
 # gera_mapa_entregas.py
