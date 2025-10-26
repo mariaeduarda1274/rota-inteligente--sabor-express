@@ -4,7 +4,9 @@ import pandas as pd
 df = pd.read_csv("pontos.csv")
 print(df)
 
-   id       lat        lon     name
-0   0 -23.55052 -46.633308     Base
-1   1 -23.54800 -46.635000  Ponto A
-2   2 -23.55200 -46.640000  Ponto B
+id,lat,lon,name
+0,-23.550520,-46.633308,Base
+1,-23.552000,-46.635500,Padaria Sol
+2,-23.553500,-46.637800,Supermercado Real
+3,-23.555000,-46.640000,Farmácia Vida
+4,-23.556500,-46.642000,Lanchonete Express  
