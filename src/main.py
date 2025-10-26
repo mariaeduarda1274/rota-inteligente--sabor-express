@@ -103,5 +103,4 @@ folium.Marker([-23.55, -46.63], popup="Exemplo").add_to(mapa)
 # Salvar como HTML
 mapa.save("mapa_entregas.html")
 
-from google.colab import files
-files.download("mapa_entregas.html")
+
