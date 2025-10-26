@@ -1,5 +1,24 @@
-# main.py - código principal da Rota Inteligente 
+# main.py ( feito no Google Colab) - código principal da Rota Inteligente 
 print("Sistema de rotas inteligentes funcionando!")
+
+## Rodar o projeto no Google Colab
+Você pode abrir e executar este projeto diretamente no Google Colab:
+
+[🟢 Abrir no Colab](https://colab.research.google.com/drive/1TtVJR9XAC6IMIcnjiECM6q1OVqcpwTeb?usp=sharing)
+
+!pip install folium branca
+!pip install selenium webdriver-manager
+from google.colab import files
+uploaded = files.upload()
+import pandas as pd
+df = pd.read_csv("pontos.csv")
+print(df)
+from google.colab import files
+uploaded = files.upload()
+import pandas as pd
+df = pd.read_csv("deliveries.csv")
+print(df)
+
 # gera_mapa_entregas.py
 import folium
 import csv
@@ -81,3 +100,17 @@ m.get_root().html.add_child(folium.Element(legend_html))
 out_html = 'mapa_entregas.html'
 m.save(out_html)
 print(f"Mapa salvo em: {out_html}")
+
+import folium
+
+# Criar o mapa
+mapa = folium.Map(location=[-23.55, -46.63], zoom_start=12)
+
+# Adicionar marcador de exemplo
+folium.Marker([-23.55, -46.63], popup="Exemplo").add_to(mapa)
+
+# Salvar como HTML
+mapa.save("mapa_entregas.html")
+
+from google.colab import files
+files.download("mapa_entregas.html")
