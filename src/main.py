@@ -3,14 +3,10 @@ print("Sistema de rotas inteligentes funcionando!")
 
 !pip install folium branca
 !pip install selenium webdriver-manager
-from google.colab import files
-uploaded = files.upload()
 import pandas as pd
 df = pd.read_csv("data/pontos.csv")
 print(df)
 from google.colab import files
-uploaded = files.upload()
-import pandas as pd
 df = pd.read_csv("data/deliveries.csv")
 print(df)
 
