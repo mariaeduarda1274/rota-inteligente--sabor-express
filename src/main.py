@@ -1,11 +1,6 @@
 # main.py ( feito no Google Colab) - código principal da Rota Inteligente 
 print("Sistema de rotas inteligentes funcionando!")
 
-## Rodar o projeto no Google Colab
-Você pode abrir e executar este projeto diretamente no Google Colab:
-
-#[🟢 Abrir no Colab](https://colab.research.google.com/drive/1TtVJR9XAC6IMIcnjiECM6q1OVqcpwTeb?usp=sharing)
-
 !pip install folium branca
 !pip install selenium webdriver-manager
 from google.colab import files
