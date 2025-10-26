@@ -4,7 +4,9 @@ import pandas as pd
 df = pd.read_csv("deliveries.csv")
 print(df)
 
-   id     lat     lon address
-0   0 -23.549 -46.634   Rua X
-1   1 -23.551 -46.637   Rua Y
-2   2 -23.553 -46.639   Rua Z
+id,lat,lon,address
+0,-23.551500,-46.634200,Rua das Flores, 100
+1,-23.553000,-46.636700,Avenida Brasil, 250
+2,-23.554500,-46.638900,Rua Esperança, 78
+3,-23.556000,-46.641000,Rua Central, 300
+4,-23.557200,-46.642800,Rua Azul, 45
