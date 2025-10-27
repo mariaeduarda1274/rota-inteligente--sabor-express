@@ -10,7 +10,7 @@ Google Colab
 - BFS: Busca em Largura 
 - Dfs: Busca em Profundidade 
 
-## Dados utilizados##
+## Dados utilizados ##
 Data/ 
 * deliveries.csv
 *map_edges.csv
