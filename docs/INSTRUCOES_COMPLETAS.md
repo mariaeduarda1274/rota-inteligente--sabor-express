@@ -33,8 +33,11 @@ Para executar o projeto no **Google Colab**, siga os passos abaixo em três cél
 ---
 
  # CÉLULA 1: LIMPEZA, DOWNLOAD E INSTALAÇÃO
+ 
  #Garante que o Colab baixe a versão FINAL do main.py
+ 
 !rm -rf rota-inteligente--sabor-express
+
 !git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
 
 
