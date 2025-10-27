@@ -21,6 +21,7 @@ Docs/
 * mapa_entregas.png 
 
 ## Código - fonte principal 
+src/
 * main.py
 
 ## Projeto Rota Inteligente - Sabor Express ##
