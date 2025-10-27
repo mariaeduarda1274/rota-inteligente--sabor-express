@@ -45,9 +45,6 @@ Este bloco clona o repositório **correto**, navega para a pasta do projeto e in
 # INSTALAR DEPENDÊNCIAS
 !pip install pandas folium branca selenium webdriver-manager
 
-# Célula 2#: Execução do Script Principal
-Este comando executa o arquivo principal (main.py), que carrega os dados, calcula as estatísticas e gera o arquivo mapa_entregas.html (o mapa correto).
-
 Python
 # CÉLULA 2: EXECUÇÃO DO SCRIPT
 !python src/main.py
