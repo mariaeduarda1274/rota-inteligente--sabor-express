@@ -88,17 +88,3 @@ m.get_root().html.add_child(folium.Element(legend_html))
 # --- salvar HTML ---
 out_html = 'mapa_entregas.html'
 m.save(out_html)
-
-
-import folium
-
-# Criar o mapa
-mapa = folium.Map(location=[-23.55, -46.63], zoom_start=12)
-
-# Adicionar marcador de exemplo
-folium.Marker([-23.55, -46.63], popup="Exemplo").add_to(mapa)
-
-# Salvar como HTML
-mapa.save("mapa_entregas.html")
-
-
