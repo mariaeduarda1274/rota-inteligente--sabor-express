@@ -31,27 +31,17 @@ Para executar o projeto no **Google Colab**, siga os passos abaixo em três cél
 
 ---
 
-## Célula 1: Setup e Instalação (Clonar e Instalar)
-
-Este bloco clona o repositório **correto**, navega para a pasta do projeto e instala todas as bibliotecas necessárias.
-
-```python
-# CÉLULA 1#: LIMPEZA, DOWNLOAD E INSTALAÇÃO
-# Garante que a versão final do código seja baixada
-!rm -rf rota-inteligente--sabor-express 
-!git clone [https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git](https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git)
+# CÉLULA 1: LIMPEZA, DOWNLOAD E INSTALAÇÃO
+# Garante que o Colab baixe a versão FINAL e CORRIGIDA do main.py
+!rm -rf rota-inteligente--sabor-express
+!git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
 %cd rota-inteligente--sabor-express 
-
-# INSTALAR DEPENDÊNCIAS
 !pip install pandas folium branca selenium webdriver-manager
 
-Python
 # CÉLULA 2: EXECUÇÃO DO SCRIPT
 !python src/main.py
 
-# Célula 3 #: Download do Resultado Final
-
-# Move o mapa da pasta do projeto para a raiz do Colab para o download funcionar
+# CÉLULA 3: BAIXAR O MAPA DE FORMA GARANTIDA
 !cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
 
 from google.colab import files
