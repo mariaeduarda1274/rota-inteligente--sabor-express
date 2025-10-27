@@ -36,6 +36,8 @@ Para executar o projeto no **Google Colab**, siga os passos abaixo em três cél
  #Garante que o Colab baixe a versão FINAL do main.py
 !rm -rf rota-inteligente--sabor-express
 !git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
+
+
 %cd rota-inteligente--sabor-express 
 !pip install pandas folium branca selenium webdriver-manager
 
