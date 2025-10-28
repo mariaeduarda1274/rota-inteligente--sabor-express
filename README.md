@@ -6,7 +6,7 @@
 ** Desafio:** Criar uma solução que sugira rotas melhores automaticamente e agrupe entregas próximas para reduzir tempo e custo das entregas.
 ** Objetivos:** (1) representar a cidade como um grafo; (2) calcular rotas curtas entre pontos; (3) agrupar entregas próximas em zonas; (4) documentar e apresentar os resultados 
 
-## 2. Abordagem adotada 
+## 🎯 2. Abordagem adotada 
 1. ** Modelagem:** transformei a cidade num grafo - cada local é um ponto do mapa  (com coordenadas) e cada rua é uma aresta com peso( distância).
 2. ** Roteamento:** para achar o menor caminho entre dois pontos usei A*, e serve também para varias coisas, como mostra acidentes no caminho, pedágios.. um exemplo é  o GPS do Google Maps.
 3. ** Agrupamento:** quando há muitos pedidos, uso K-Means para agrupar entregas próximas em zonas, assim um entregador cuida de um grupo por vez
