@@ -12,7 +12,7 @@
 3. ** Agrupamento:** quando há muitos pedidos, uso K-Means para agrupar entregas próximas em zonas, assim um entregador cuida de um grupo por vez
 4. ** Visualização:** gerei um gráfico do grafo mostrando os nós, arestas, entregas e uma rota de exemplo para facilitar a apresentação.
 
- ## 3. Algoritmos usados
+ ## ⚙️3. Algoritmos usados
  - **A\*** - busca informada para obter rotas curtas rápido.
  - ** BFS/ DFS** - usados para testar conectividade e percorrer o grafo
  - ** K- Means** - agrupa entregas próximas para formar zonas eficientes, isso faz até com que economize combustível ja que vai ser mais em grupos de zonas.
