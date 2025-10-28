@@ -1,6 +1,7 @@
 📌# Rota Inteligente: Otimização de Entregas (Sabor Express)
 
-🛑## 1. Descrição do problema e objetivos 
+
+## 🛑1. Descrição do problema e objetivos 
 ** Problema:** A Sabor Express faz entregas com rotas montadas manualmente. Em horários de picos causa atrasos, mais gasto de combustível e clientes insatisfeitos. 
 ** Desafio:** Criar uma solução que sugira rotas melhores automaticamente e agrupe entregas próximas para reduzir tempo e custo das entregas.
 ** Objetivos:** (1) representar a cidade como um grafo; (2) calcular rotas curtas entre pontos; (3) agrupar entregas próximas em zonas; (4) documentar e apresentar os resultados 
