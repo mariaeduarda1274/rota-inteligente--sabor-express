@@ -46,7 +46,7 @@ Testes feitos com dados inexistentes(exemplo):
 - Não foram consideradas janelas de horário, capacidade dos entregadores ou ruas com sentido único.
 - Visualização estática, e um pouco com o web
 
-## 8. Sugestões de melhoria 
+## 🔨8. Sugestões de melhoria 
 - Integrar dados reais e tráfego em tempo real
 - Implementar interface de web mais detalhada
 - Teqstar em dados reais da Sabor Express e ajustar parâmetros segundo números de entregadores.
