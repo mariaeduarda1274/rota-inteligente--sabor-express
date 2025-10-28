@@ -3,7 +3,9 @@
 
 ## 🛑1. Descrição do problema e objetivos 
 ** Problema:** A Sabor Express faz entregas com rotas montadas manualmente. Em horários de picos causa atrasos, mais gasto de combustível e clientes insatisfeitos. 
+
 ** Desafio:** Criar uma solução que sugira rotas melhores automaticamente e agrupe entregas próximas para reduzir tempo e custo das entregas.
+
 ** Objetivos:** (1) representar a cidade como um grafo; (2) calcular rotas curtas entre pontos; (3) agrupar entregas próximas em zonas; (4) documentar e apresentar os resultados 
 
 ## 🎯 2. Abordagem adotada 
@@ -17,7 +19,7 @@
  - ** BFS/ DFS** - usados para testar conectividade e percorrer o grafo
  - ** K- Means** - agrupa entregas próximas para formar zonas eficientes, isso faz até com que economize combustível ja que vai ser mais em grupos de zonas.
 
-## 4. Diagrama do grafo/ modelo 
+## 🗺️ 4. Diagrama do grafo/ modelo 
 Inclui a imagem:
 <img width="1363" height="614" alt="image" src="https://github.com/user-attachments/assets/28806afa-2a8a-465b-ac65-d83c57d0d978" />
 Ela mostra: 
@@ -28,7 +30,7 @@ Ela mostra:
 Link que caso não queira a imagem, até para mexer com mouse para apliar o mapa.
 https://mariaeduarda1274.github.io/rota-inteligente--sabor-express/
 
-## 5. Análise dos resultados
+## 📊 5. Análise dos resultados
 Testes feitos com dados inexistentes(exemplo):
 - Nós: 3 | Entregas: 3
 - Rota sequencial exemplo: ~ 100.000 unidades de distância.
@@ -49,8 +51,8 @@ Testes feitos com dados inexistentes(exemplo):
 - Implementar interface de web mais detalhada
 - Teqstar em dados reais da Sabor Express e ajustar parâmetros segundo números de entregadores.
 
-## 9. Conclusão: 
-A solução mostrou que, mesmo com técnicas clássicas, é possivel automatizar e melhorar rotas de entrega, reduzindo deslocamento e organizando melhor as tarefas dos entregadores. Com dados reais e melhorias listadas, a ferramenta pode se tornar prática para uso diário, e com isso tendo muitas melhorias, economizando combustível, otimizando tempo.. 
+## 💡9. Conclusão: 
+- A solução mostrou que, mesmo com técnicas clássicas, é possivel automatizar e melhorar rotas de entrega, reduzindo deslocamento e organizando melhor as tarefas dos entregadores. Com dados reais e melhorias listadas, a ferramenta pode se tornar prática para uso diário, e com isso tendo muitas melhorias, economizando combustível, otimizando tempo.. 
 
 
 
