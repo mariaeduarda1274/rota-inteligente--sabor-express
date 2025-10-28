@@ -53,3 +53,5 @@ Para executar o projeto no **Google Colab**, siga os passos abaixo em três cél
 from google.colab import files
 
 files.download("/content/mapa_entregas.html")
+
+# Obs: importante executar as células em ordem para que de certo.
