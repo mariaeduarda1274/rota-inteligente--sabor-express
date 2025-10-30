@@ -1,46 +1,31 @@
-# main.py ( feito no Google Colab) - código principal da Rota Inteligente 
-print("Sistema de rotas inteligentes funcionando!")
+# main.py — versão final funcional (sem precisar de CSVs externos)
 
-import pandas as pd
-df = pd.read_csv("data/pontos.csv")
-print(df)
-from google.colab import files
-df = pd.read_csv("data/deliveries.csv")
-print(df)
-
-# gera_mapa_entregas.py
 import folium
-import csv
 import statistics
 from folium import Popup
 import branca
 
-# --- carregar dados ---
-def load_csv_points(path, lat_col='lat', lon_col='lon'):
-    pts = []
-    with open(path, newline='', encoding='utf-8') as f:
-        r = csv.DictReader(f)
-        for row in r:
-            pts.append({
-                'id': row.get('id'),
-                'lat': float(row[lat_col]),
-                'lon': float(row[lon_col]),
-                'raw': row
-            })
-    return pts
+# --- Dados simulados (exemplo para teste) ---
+locais = [
+    {'id': 'L1', 'lat': -23.5505, 'lon': -46.6333},  # São Paulo centro
+    {'id': 'L2', 'lat': -23.5596, 'lon': -46.6588},  # Av. Paulista
+]
 
-locais = load_csv_points('data/pontos.csv', lat_col='lat', lon_col='lon')
-entregas = load_csv_points('data/deliveries.csv', lat_col='lat', lon_col='lon')
+entregas = [
+    {'id': 'E1', 'lat': -23.5632, 'lon': -46.6544},
+    {'id': 'E2', 'lat': -23.5650, 'lon': -46.6400},
+    {'id': 'E3', 'lat': -23.5700, 'lon': -46.6500},
+]
 
-# --- centro do mapa ---
+# --- Calcular centro do mapa ---
 all_lats = [p['lat'] for p in locais + entregas]
 all_lons = [p['lon'] for p in locais + entregas]
 center = (statistics.mean(all_lats), statistics.mean(all_lons))
 
-# --- criar mapa folium ---
-m = folium.Map(location=center, zoom_start=14, tiles='CartoDB positron')  # estilo limpo e moderno
+# --- Criar mapa ---
+m = folium.Map(location=center, zoom_start=14, tiles='CartoDB positron')
 
-# --- adicionar marcadores (locais azul) ---
+# --- Locais (azul) ---
 for p in locais:
     folium.CircleMarker(
         location=(p['lat'], p['lon']),
@@ -52,7 +37,7 @@ for p in locais:
         popup=Popup(f"Local ID: {p['id']}", parse_html=True)
     ).add_to(m)
 
-# --- marcadores de entregas (vermelho) ---
+# --- Entregas (vermelho) ---
 for p in entregas:
     folium.Marker(
         location=(p['lat'], p['lon']),
@@ -60,16 +45,12 @@ for p in entregas:
         popup=Popup(f"Entrega ID: {p['id']}", parse_html=True)
     ).add_to(m)
 
-# --- rota otimizada (exemplo) ---
-# Aqui você coloca a lista de coordenadas na ordem do percurso otimizado (lat, lon).
-# No exemplo abaixo eu simplifico criando uma rota passando por todas as entregas na ordem do arquivo.
+# --- Rota simples (na ordem das entregas) ---
 route_coords = [(p['lat'], p['lon']) for p in entregas]
-# Se quiser incluir um ponto de partida, adicione-o antes: route_coords.insert(0, (start_lat,start_lon))
-
 if route_coords:
     folium.PolyLine(route_coords, color='#1976D2', weight=6, opacity=0.8).add_to(m)
 
-# --- legenda custom (usando branca) ---
+# --- Legenda ---
 legend_html = """
 <div style="
 position: fixed;
@@ -85,6 +66,53 @@ box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
 """
 m.get_root().html.add_child(folium.Element(legend_html))
 
-# --- salvar HTML ---
+# --- Salvar mapa ---
 out_html = 'mapa_entregas.html'
 m.save(out_html)
+print(f"✅ Mapa gerado com sucesso: {out_html}")
+
+#  ou também pode ser usado esse: 
+
+# CÉLULA 1: LIMPEZA, DOWNLOAD E INSTALAÇÃO
+!rm -rf rota-inteligente--sabor-express
+!git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
+%cd rota-inteligente--sabor-express
+!pip install pandas folium branca selenium webdriver-manager
+
+# CÉLULA 2: EXECUÇÃO DO SCRIPT!python src/main.py
+
+# CÉLULA 3: BAIXAR O MAPA DE FORMA GARANTIDA!
+cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
+from google.colab import files
+files.download("/content/mapa_entregas.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
