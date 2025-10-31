@@ -82,7 +82,7 @@ print(f"✅ Mapa gerado com sucesso: {out_html}")
 # CÉLULA 2: EXECUÇÃO DO SCRIPT!python src/main.py
 
 # CÉLULA 3: BAIXAR O MAPA DE FORMA GARANTIDA!
-cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
+!cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
 from google.colab import files
 files.download("/content/mapa_entregas.html")
 
