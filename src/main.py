@@ -74,15 +74,15 @@ print(f"✅ Mapa gerado com sucesso: {out_html}")
 #  ou também pode ser usado esse: 
 
 # CÉLULA 1: LIMPEZA, DOWNLOAD E INSTALAÇÃO
-!git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
-%cd rota-inteligente--sabor-express
-!pip install pandas folium branca selenium webdriver-manager
+#git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
+cd rota-inteligente--sabor-express
+pip install pandas folium branca selenium webdriver-manager
 
 # CÉLULA 2: EXECUÇÃO DO SCRIPT
-!python src/main.py
+python src/main.py
 
 # CÉLULA 3: BAIXAR O MAPA DE FORMA GARANTIDA!
-!cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
+cp /content/rota-inteligente--sabor-express/mapa_entregas.html /content/mapa_entregas.html
 from google.colab import files
 files.download("/content/mapa_entregas.html")
 
