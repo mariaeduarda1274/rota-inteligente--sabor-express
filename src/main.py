@@ -80,8 +80,8 @@ print(f"✅ Mapa gerado com sucesso: {out_html}")
 
 
 # CÉLULA 3: BAIXAR O MAPA DE FORMA GARANTIDA!
-from google.colab import files
-files.download("/content/mapa_entregas.html")
+#from google.colab import files
+#files.download("/content/mapa_entregas.html")
 
 
 
