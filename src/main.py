@@ -74,7 +74,6 @@ print(f"✅ Mapa gerado com sucesso: {out_html}")
 #  ou também pode ser usado esse: 
 
 # CÉLULA 1: LIMPEZA, DOWNLOAD E INSTALAÇÃO
-!rm -rf rota-inteligente--sabor-express
 !git clone https://github.com/mariaeduarda1274/rota-inteligente--sabor-express.git
 %cd rota-inteligente--sabor-express
 !pip install pandas folium branca selenium webdriver-manager
